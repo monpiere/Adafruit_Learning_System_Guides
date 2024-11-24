@@ -11,11 +11,11 @@ import neopixel
 # Update this to match the pin to which you connected the NeoPixels
 pixel_pin = board.A3
 # Update this to match the number of NeoPixels connected
-num_pixels = 30
+num_pixels = 12
 
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, auto_write=False)
 # Set to 0-1 to change the brightness of the NeoPixels
-pixels.brightness = 0.2
+pixels.brightness = 0.5
 
 
 def blink(color, wait):
